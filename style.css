@@ -1,0 +1,148 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/background/dot-grid.png);
+    height: 2000px;
+}
+
+.bd {
+    width: 70%;
+}
+
+/* Navbar */
+.navbar {
+    background-color: transparent;
+    transition: 0.3s;
+
+}
+
+.navbar:hover {
+    background-color: rgba(255, 255, 255, 0.89);
+    box-shadow: 1px 1px 3px rgba(68, 68, 68, 0.342);
+}
+
+.navbar a.navbar-brand {
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-item {
+    width: 110px;
+    margin-right: 5%;
+}
+
+.btn-contact {
+    border: 1px solid #00BCB1;
+    color: #00BCB1;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn-contact:hover {
+    background-color: #00BCB1;
+    box-shadow: 1px 1px 3px rgba(68, 68, 68, 0.342);
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+/* Headlines */
+#hero .container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#hero .headlines {
+    font-size: 48px;
+    line-height: 80px;
+}
+
+/* about Me */
+#aboutMe {
+    min-height: 500px;
+    background: linear-gradient(179.88deg, #00BCB1 14.45%, rgba(0, 188, 177, 0) 99.9%);
+    margin-top: -10px;
+}
+
+
+#aboutMe .profile img {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 70px;
+
+}
+
+#aboutMe h2 {
+    font-size: 40px;
+    color: white;
+}
+
+#aboutMe p {
+    font-size: 14px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+/*Projects*/
+#projects h2 {
+    font-size: 40px;
+    color: #00BCB1;
+}
+
+#projects .container {
+    margin-bottom: 150px;
+}
+
+.card {
+    border-radius: 20px;
+    border-color: #00BCB1;
+    color: #00BCB1;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn-white {
+    background-color: #FFFFFF;
+    color: #00BCB1;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn-white:hover {
+    background-color: #00BCB1;
+    box-shadow: 1px 1px 3px rgba(68, 68, 68, 0.342);
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+/* Contact Me */
+#contactMe {
+    background-color: #00BCB1;
+    margin-bottom: -50px;
+}
+
+#contactMe h2 {
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #00BCB1;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: -0.7em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* Footer */
+.form-label {
+    color: #FFFFFF;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #00BCB1;
+}
